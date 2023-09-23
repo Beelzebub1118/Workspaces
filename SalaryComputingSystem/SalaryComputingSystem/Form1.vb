@@ -12,6 +12,8 @@ Public Class Form1
         form2.OvertimeRate2txtbox.Text = OvertimeRatetxtBox.Text
 
 
+
+
         Dim textFields As TextBox() = {NametxtBox1, DepartmenttxtBox, WorkingHourstxtBox, RegularRatetxtBox, OvertimetxtBox, OvertimeRatetxtBox}
 
         For Each textField As TextBox In textFields
@@ -72,6 +74,36 @@ Public Class Form1
             MessageBox.Show("Please enter a string in the second field.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         End If
+
+        Dim WH As Double = WorkingHourstxtBox.Text
+        Dim RR As Double = RegularRatetxtBox.Text
+        Dim OT As Double = OvertimeRatetxtBox.Text
+        Dim OTR As Double = OvertimeRatetxtBox.Text
+
+        form2.GrossSalaryDeductiontxtbox.Text = (WH * 150) + (10 * 80)
+        Dim GsD As Double = form2.GrossSalaryDeductiontxtbox.Text
+
+        form2.SSStxtbox.Text = (0.05 * GsD)
+        Dim SSS As Double = form2.SSStxtbox.Text
+
+        form2.Philhealthtxtbox.Text = RR
+        Dim PHP As Double = form2.Philhealthtxtbox.Text
+
+        form2.Pagibigtxtbox.Text = GsD * 0.03
+        Dim PI As Double = form2.Pagibigtxtbox.Text
+
+        form2.Incometaxtxtbox.Text = GsD * 0.08
+        Dim IT As Double = form2.Incometaxtxtbox.Text
+
+        Dim DT As Double = SSS + PHP + PI + IT
+
+        form2.GrossSalaryDeductiontxtbox.Text = GsD
+        form2.SSStxtbox.Text = SSS
+        form2.Philhealthtxtbox.Text = PHP
+        form2.Pagibigtxtbox.Text = PI
+        form2.Incometaxtxtbox.Text = IT
+        form2.Totaldeductiontxtbox.Text = DT
+        form2.Netpaytxtbox.Text = GsD - DT
 
 
         form2.Show()

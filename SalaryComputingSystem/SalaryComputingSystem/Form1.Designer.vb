@@ -58,6 +58,7 @@ Partial Class Form1
         Me.NametxtBox1.Name = "NametxtBox1"
         Me.NametxtBox1.Size = New System.Drawing.Size(128, 24)
         Me.NametxtBox1.TabIndex = 1
+        Me.NametxtBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'DepartmenttxtBox
         '
@@ -67,6 +68,7 @@ Partial Class Form1
         Me.DepartmenttxtBox.Name = "DepartmenttxtBox"
         Me.DepartmenttxtBox.Size = New System.Drawing.Size(128, 24)
         Me.DepartmenttxtBox.TabIndex = 3
+        Me.DepartmenttxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Departmentlbl
         '
@@ -87,6 +89,7 @@ Partial Class Form1
         Me.WorkingHourstxtBox.Name = "WorkingHourstxtBox"
         Me.WorkingHourstxtBox.Size = New System.Drawing.Size(128, 24)
         Me.WorkingHourstxtBox.TabIndex = 5
+        Me.WorkingHourstxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'WorkingHourslbl
         '
@@ -107,6 +110,7 @@ Partial Class Form1
         Me.RegularRatetxtBox.Name = "RegularRatetxtBox"
         Me.RegularRatetxtBox.Size = New System.Drawing.Size(128, 24)
         Me.RegularRatetxtBox.TabIndex = 7
+        Me.RegularRatetxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'RegularRatelbl
         '
@@ -127,6 +131,7 @@ Partial Class Form1
         Me.OvertimetxtBox.Name = "OvertimetxtBox"
         Me.OvertimetxtBox.Size = New System.Drawing.Size(128, 24)
         Me.OvertimetxtBox.TabIndex = 9
+        Me.OvertimetxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Overtimelbl
         '
@@ -147,6 +152,7 @@ Partial Class Form1
         Me.OvertimeRatetxtBox.Name = "OvertimeRatetxtBox"
         Me.OvertimeRatetxtBox.Size = New System.Drawing.Size(128, 24)
         Me.OvertimeRatetxtBox.TabIndex = 11
+        Me.OvertimeRatetxtBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'OvertimeRatelbl
         '

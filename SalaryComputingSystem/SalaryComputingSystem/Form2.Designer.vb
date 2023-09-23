@@ -314,6 +314,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.SalaryComputingSystem.My.Resources.Resources.Untitled_design__4_
         Me.ClientSize = New System.Drawing.Size(765, 356)
         Me.Controls.Add(Me.Netpaytxtbox)
         Me.Controls.Add(Me.Totaldeductiontxtbox)
@@ -343,6 +344,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Name2lbl)
         Me.Name = "Form2"
         Me.Text = "Salary Computation System"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -1,10 +1,18 @@
-﻿Public Class Form1
+﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel
+
+Public Class Form1
 
     Private Sub Convertbtn_Click(sender As Object, e As EventArgs) Handles Convertbtn.Click
+        Dim form2 As New Form2()
+        form2.NametxtBox.Text = NametxtBox1.Text
+        form2.Department2txtbox.Text = DepartmenttxtBox.Text
+        form2.WorkingHours2txtbox.Text = WorkingHourstxtBox.Text
+        form2.RegularRate2txtbox.Text = RegularRatetxtBox.Text
+        form2.Overtime2txtBox.Text = OvertimetxtBox.Text
+        form2.OvertimeRate2txtbox.Text = OvertimeRatetxtBox.Text
 
 
-
-        Dim textFields As TextBox() = {NametxtBox, DepartmenttxtBox, WorkingHourstxtBox, RegularRatetxtBox, OvertimetxtBox, OvertimeRatetxtBox}
+        Dim textFields As TextBox() = {NametxtBox1, DepartmenttxtBox, WorkingHourstxtBox, RegularRatetxtBox, OvertimetxtBox, OvertimeRatetxtBox}
 
         For Each textField As TextBox In textFields
             If String.IsNullOrWhiteSpace(textField.Text) Then
@@ -12,7 +20,7 @@
                 Return ' Exit the event handler without further processing
             End If
         Next
-        Dim userInput As String = NametxtBox.Text
+        Dim userInput As String = NametxtBox1.Text
 
 
         Dim userInput1 As String = WorkingHourstxtBox.Text
@@ -47,7 +55,7 @@
             Return
         End If
 
-        Dim nameInput As String = NametxtBox.Text
+        Dim nameInput As String = NametxtBox1.Text
         Dim departmentInput As String = DepartmenttxtBox.Text
 
         Dim number1 As Integer
@@ -65,16 +73,20 @@
             Return
         End If
 
-        Dim form2 As New Form2()
+
         form2.Show()
         Hide()
     End Sub
 
     Private Sub Clearbtn_Click(sender As Object, e As EventArgs) Handles Clearbtn.Click
-        Dim textFields As TextBox() = {NametxtBox, DepartmenttxtBox, WorkingHourstxtBox, RegularRatetxtBox, OvertimetxtBox, OvertimeRatetxtBox}
+        Dim textFields As TextBox() = {NametxtBox1, DepartmenttxtBox, WorkingHourstxtBox, RegularRatetxtBox, OvertimetxtBox, OvertimeRatetxtBox}
 
         For Each textField As TextBox In textFields
             textField.Text = "" ' Clear the text field
         Next
+    End Sub
+
+    Private Sub NametxtBox_TextChanged(sender As Object, e As EventArgs) Handles NametxtBox1.TextChanged
+
     End Sub
 End Class

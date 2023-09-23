@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Namelbl = New System.Windows.Forms.Label()
-        Me.NametxtBox = New System.Windows.Forms.TextBox()
+        Me.NametxtBox1 = New System.Windows.Forms.TextBox()
         Me.DepartmenttxtBox = New System.Windows.Forms.TextBox()
         Me.Departmentlbl = New System.Windows.Forms.Label()
         Me.WorkingHourstxtBox = New System.Windows.Forms.TextBox()
@@ -50,14 +50,14 @@ Partial Class Form1
         Me.Namelbl.TabIndex = 0
         Me.Namelbl.Text = "Name:"
         '
-        'NametxtBox
+        'NametxtBox1
         '
-        Me.NametxtBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.NametxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NametxtBox.Location = New System.Drawing.Point(76, 122)
-        Me.NametxtBox.Name = "NametxtBox"
-        Me.NametxtBox.Size = New System.Drawing.Size(128, 24)
-        Me.NametxtBox.TabIndex = 1
+        Me.NametxtBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.NametxtBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NametxtBox1.Location = New System.Drawing.Point(76, 122)
+        Me.NametxtBox1.Name = "NametxtBox1"
+        Me.NametxtBox1.Size = New System.Drawing.Size(128, 24)
+        Me.NametxtBox1.TabIndex = 1
         '
         'DepartmenttxtBox
         '
@@ -203,7 +203,7 @@ Partial Class Form1
         Me.Controls.Add(Me.WorkingHourslbl)
         Me.Controls.Add(Me.DepartmenttxtBox)
         Me.Controls.Add(Me.Departmentlbl)
-        Me.Controls.Add(Me.NametxtBox)
+        Me.Controls.Add(Me.NametxtBox1)
         Me.Controls.Add(Me.Namelbl)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -217,7 +217,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Namelbl As Label
-    Friend WithEvents NametxtBox As TextBox
+    Friend WithEvents NametxtBox1 As TextBox
     Friend WithEvents DepartmenttxtBox As TextBox
     Friend WithEvents Departmentlbl As Label
     Friend WithEvents WorkingHourstxtBox As TextBox

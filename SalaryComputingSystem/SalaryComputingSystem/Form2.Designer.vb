@@ -197,7 +197,7 @@ Partial Class Form2
         'NametxtBox
         '
         Me.NametxtBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.NametxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NametxtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NametxtBox.Location = New System.Drawing.Point(162, 65)
         Me.NametxtBox.Name = "NametxtBox"
         Me.NametxtBox.Size = New System.Drawing.Size(170, 24)
@@ -206,7 +206,7 @@ Partial Class Form2
         'Department2txtbox
         '
         Me.Department2txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Department2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Department2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Department2txtbox.Location = New System.Drawing.Point(162, 104)
         Me.Department2txtbox.Name = "Department2txtbox"
         Me.Department2txtbox.Size = New System.Drawing.Size(170, 24)
@@ -215,7 +215,7 @@ Partial Class Form2
         'WorkingHours2txtbox
         '
         Me.WorkingHours2txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.WorkingHours2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.WorkingHours2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.WorkingHours2txtbox.Location = New System.Drawing.Point(162, 142)
         Me.WorkingHours2txtbox.Name = "WorkingHours2txtbox"
         Me.WorkingHours2txtbox.Size = New System.Drawing.Size(170, 24)
@@ -224,7 +224,7 @@ Partial Class Form2
         'RegularRate2txtbox
         '
         Me.RegularRate2txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.RegularRate2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RegularRate2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RegularRate2txtbox.Location = New System.Drawing.Point(162, 185)
         Me.RegularRate2txtbox.Name = "RegularRate2txtbox"
         Me.RegularRate2txtbox.Size = New System.Drawing.Size(170, 24)
@@ -233,7 +233,7 @@ Partial Class Form2
         'Overtime2txtBox
         '
         Me.Overtime2txtBox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Overtime2txtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Overtime2txtBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Overtime2txtBox.Location = New System.Drawing.Point(162, 225)
         Me.Overtime2txtBox.Name = "Overtime2txtBox"
         Me.Overtime2txtBox.Size = New System.Drawing.Size(170, 24)
@@ -242,7 +242,7 @@ Partial Class Form2
         'OvertimeRate2txtbox
         '
         Me.OvertimeRate2txtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.OvertimeRate2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OvertimeRate2txtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OvertimeRate2txtbox.Location = New System.Drawing.Point(162, 268)
         Me.OvertimeRate2txtbox.Name = "OvertimeRate2txtbox"
         Me.OvertimeRate2txtbox.Size = New System.Drawing.Size(170, 24)
@@ -251,7 +251,7 @@ Partial Class Form2
         'GrossSalaryDeductiontxtbox
         '
         Me.GrossSalaryDeductiontxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.GrossSalaryDeductiontxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GrossSalaryDeductiontxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GrossSalaryDeductiontxtbox.Location = New System.Drawing.Point(568, 65)
         Me.GrossSalaryDeductiontxtbox.Name = "GrossSalaryDeductiontxtbox"
         Me.GrossSalaryDeductiontxtbox.Size = New System.Drawing.Size(170, 24)
@@ -260,7 +260,7 @@ Partial Class Form2
         'SSStxtbox
         '
         Me.SSStxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.SSStxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SSStxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SSStxtbox.Location = New System.Drawing.Point(568, 103)
         Me.SSStxtbox.Name = "SSStxtbox"
         Me.SSStxtbox.Size = New System.Drawing.Size(170, 24)
@@ -269,7 +269,7 @@ Partial Class Form2
         'Philhealthtxtbox
         '
         Me.Philhealthtxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Philhealthtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Philhealthtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Philhealthtxtbox.Location = New System.Drawing.Point(568, 146)
         Me.Philhealthtxtbox.Name = "Philhealthtxtbox"
         Me.Philhealthtxtbox.Size = New System.Drawing.Size(170, 24)
@@ -278,7 +278,7 @@ Partial Class Form2
         'Pagibigtxtbox
         '
         Me.Pagibigtxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Pagibigtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Pagibigtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Pagibigtxtbox.Location = New System.Drawing.Point(568, 186)
         Me.Pagibigtxtbox.Name = "Pagibigtxtbox"
         Me.Pagibigtxtbox.Size = New System.Drawing.Size(170, 24)
@@ -287,7 +287,7 @@ Partial Class Form2
         'Incometaxtxtbox
         '
         Me.Incometaxtxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Incometaxtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Incometaxtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Incometaxtxtbox.Location = New System.Drawing.Point(568, 227)
         Me.Incometaxtxtbox.Name = "Incometaxtxtbox"
         Me.Incometaxtxtbox.Size = New System.Drawing.Size(170, 24)
@@ -296,7 +296,7 @@ Partial Class Form2
         'Totaldeductiontxtbox
         '
         Me.Totaldeductiontxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Totaldeductiontxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Totaldeductiontxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Totaldeductiontxtbox.Location = New System.Drawing.Point(568, 269)
         Me.Totaldeductiontxtbox.Name = "Totaldeductiontxtbox"
         Me.Totaldeductiontxtbox.Size = New System.Drawing.Size(170, 24)
@@ -305,7 +305,7 @@ Partial Class Form2
         'Netpaytxtbox
         '
         Me.Netpaytxtbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.Netpaytxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Netpaytxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Netpaytxtbox.Location = New System.Drawing.Point(324, 308)
         Me.Netpaytxtbox.Name = "Netpaytxtbox"
         Me.Netpaytxtbox.Size = New System.Drawing.Size(170, 24)

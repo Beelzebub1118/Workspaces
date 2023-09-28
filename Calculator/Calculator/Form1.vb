@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Dim firstNum, secondNum, result As Double
+    Dim firstNum, result As Double
     Dim op As String
     Dim isNewOperation As Boolean = True ' Indicates if a new operation should start.
 
@@ -45,45 +45,51 @@
     Private Sub Op_Click(sender As Object, e As EventArgs) Handles Button8.Click, Button4.Click, Button3.Click, Button2.Click, Button18.Click, btnMOD.Click
         Dim btn As Button = sender
 
-        ' Update the operator only if a number is entered.
-        If Not isNewOperation Then
-            ' Store the value entered by the user in firstNum.
-            Double.TryParse(TextBox1.Text, firstNum)
-        End If
-
         ' Set the new operator.
         op = btn.Text
+
+        If Not isNewOperation Then
+            ' Store the value entered by the user in firstNum if it's not empty.
+            If Not String.IsNullOrEmpty(TextBox1.Text) Then
+                Double.TryParse(TextBox1.Text, firstNum)
+            End If
+        End If
 
         TextBox1.Text = ""
         isNewOperation = True
     End Sub
 
     Private Sub BtnEqual_Click(sender As Object, e As EventArgs) Handles btnEqual.Click
-        secondNum = TextBox1.Text
+        If Not String.IsNullOrEmpty(TextBox1.Text) Then
+            ' Store the second number entered by the user.
+            Dim secondNum As Double
+            Double.TryParse(TextBox1.Text, secondNum)
 
-        Try
-            If op = "+" Then
-                result = firstNum + secondNum
-            ElseIf op = "-" Then
-                result = firstNum - secondNum
-            ElseIf op = "*" Then
-                result = firstNum * secondNum
-            ElseIf op = "/" Then
-                If secondNum = 0 Then
-                    Throw New Exception("Cannot divide by zero!")
+            Try
+                If op = "+" Then
+                    result = firstNum + secondNum
+                ElseIf op = "-" Then
+                    ' Ensure subtraction is performed correctly regardless of input order.
+                    result = If(firstNum > secondNum, firstNum - secondNum, secondNum - firstNum)
+                ElseIf op = "*" Then
+                    result = firstNum * secondNum
+                ElseIf op = "/" Then
+                    If secondNum = 0 Then
+                        Throw New Exception("Cannot divide by zero!")
+                    End If
+                    result = firstNum / secondNum
+                ElseIf op = "MOD" Then
+                    result = firstNum Mod secondNum
+                ElseIf op = "^" Then
+                    result = Math.Pow(firstNum, secondNum)
                 End If
-                result = firstNum / secondNum
-            ElseIf op = "MOD" Then
-                result = firstNum Mod secondNum
-            ElseIf op = "^" Then
-                result = Math.Pow(firstNum, secondNum)
-            End If
 
-            TextBox1.Text = result.ToString()
-            firstNum = result ' Update firstNum with the new result.
-        Catch ex As Exception
-            TextBox1.Text = "Error: " & ex.Message
-        End Try
-        isNewOperation = True ' Set isNewOperation to True after the result is calculated.
+                TextBox1.Text = result.ToString()
+                firstNum = result ' Update firstNum with the new result.
+            Catch ex As Exception
+                TextBox1.Text = "Error: " & ex.Message
+            End Try
+            isNewOperation = True ' Set isNewOperation to True after the result is calculated.
+        End If
     End Sub
 End Class

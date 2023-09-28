@@ -55,7 +55,7 @@ Public Class Form1
             ' Check if the parsed value is a whole number (integer)
             If HeightInput = Math.Floor(HeightInput) Then
                 ' The user input is a valid integer
-                MessageBox.Show("Valid integer input: " & HeightInput.ToString())
+                MessageBox.Show("Valid integer input " & HeightInput.ToString())
             Else
                 ' The user input is not a valid integer
                 MessageBox.Show("Invalid input. Please enter an integer.")

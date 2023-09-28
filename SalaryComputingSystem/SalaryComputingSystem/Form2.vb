@@ -71,5 +71,10 @@ Public Class Form2
 
     End Sub
 
+    Private Sub NEWbtn_Click(sender As Object, e As EventArgs) Handles NEWbtn.Click
+        Dim Form1 As New Form1()
+        Form1.Show()
 
+        Hide()
+    End Sub
 End Class

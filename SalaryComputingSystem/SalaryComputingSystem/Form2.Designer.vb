@@ -48,6 +48,7 @@ Partial Class Form2
         Me.Incometaxtxtbox = New System.Windows.Forms.TextBox()
         Me.Totaldeductiontxtbox = New System.Windows.Forms.TextBox()
         Me.Netpaytxtbox = New System.Windows.Forms.TextBox()
+        Me.NEWbtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Name2lbl
@@ -310,12 +311,25 @@ Partial Class Form2
         Me.Netpaytxtbox.Size = New System.Drawing.Size(170, 24)
         Me.Netpaytxtbox.TabIndex = 26
         '
+        'NEWbtn
+        '
+        Me.NEWbtn.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.NEWbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NEWbtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.NEWbtn.Location = New System.Drawing.Point(674, 317)
+        Me.NEWbtn.Name = "NEWbtn"
+        Me.NEWbtn.Size = New System.Drawing.Size(79, 27)
+        Me.NEWbtn.TabIndex = 27
+        Me.NEWbtn.Text = "NEW"
+        Me.NEWbtn.UseVisualStyleBackColor = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.SalaryComputingSystem.My.Resources.Resources.Untitled_design__4_
         Me.ClientSize = New System.Drawing.Size(765, 356)
+        Me.Controls.Add(Me.NEWbtn)
         Me.Controls.Add(Me.Netpaytxtbox)
         Me.Controls.Add(Me.Totaldeductiontxtbox)
         Me.Controls.Add(Me.Incometaxtxtbox)
@@ -376,4 +390,5 @@ Partial Class Form2
     Friend WithEvents Incometaxtxtbox As TextBox
     Friend WithEvents Totaldeductiontxtbox As TextBox
     Friend WithEvents Netpaytxtbox As TextBox
+    Friend WithEvents NEWbtn As Button
 End Class

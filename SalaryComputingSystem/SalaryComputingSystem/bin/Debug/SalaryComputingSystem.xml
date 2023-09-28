@@ -37,7 +37,32 @@ SalaryComputingSystem
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SalaryComputingSystem.My.Resources.Resources.Untitled_design__4_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

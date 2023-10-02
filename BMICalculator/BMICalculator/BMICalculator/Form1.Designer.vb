@@ -32,25 +32,25 @@ Partial Class Form1
         '
         'Weighttxtbox
         '
-        Me.Weighttxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Weighttxtbox.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Weighttxtbox.Location = New System.Drawing.Point(142, 142)
         Me.Weighttxtbox.Name = "Weighttxtbox"
-        Me.Weighttxtbox.Size = New System.Drawing.Size(196, 24)
+        Me.Weighttxtbox.Size = New System.Drawing.Size(196, 26)
         Me.Weighttxtbox.TabIndex = 0
         Me.Weighttxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Heighttxtbox
         '
-        Me.Heighttxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Heighttxtbox.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Heighttxtbox.Location = New System.Drawing.Point(142, 220)
         Me.Heighttxtbox.Name = "Heighttxtbox"
-        Me.Heighttxtbox.Size = New System.Drawing.Size(196, 24)
+        Me.Heighttxtbox.Size = New System.Drawing.Size(196, 26)
         Me.Heighttxtbox.TabIndex = 1
         Me.Heighttxtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'BMItxtbox
         '
-        Me.BMItxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BMItxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BMItxtbox.Location = New System.Drawing.Point(142, 303)
         Me.BMItxtbox.Name = "BMItxtbox"
         Me.BMItxtbox.Size = New System.Drawing.Size(196, 24)
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         'BMICATtxtbox
         '
-        Me.BMICATtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BMICATtxtbox.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BMICATtxtbox.Location = New System.Drawing.Point(251, 394)
         Me.BMICATtxtbox.Name = "BMICATtxtbox"
         Me.BMICATtxtbox.Size = New System.Drawing.Size(196, 24)

@@ -8,6 +8,8 @@ Public Class Form1
         GrossFaretxtbox.ReadOnly = True
         Discounttxtbox.ReadOnly = True
         Netfaretxtbox.ReadOnly = True
+
+
     End Sub
 
     Private Sub Clearbtn_Click(sender As Object, e As EventArgs) Handles Clearbtn.Click
@@ -19,6 +21,17 @@ Public Class Form1
     End Sub
 
     Private Sub Proceedbtn_Click(sender As Object, e As EventArgs) Handles Proceedbtn.Click
+
+        If ComboBox1.SelectedIndex = -1 Then
+            MessageBox.Show("ComboBox is empty.")
+        ElseIf ComboBox2.SelectedIndex = -1 Then
+            MessageBox.Show("ComboBox is empty.")
+        ElseIf ComboBox3.SelectedIndex = -1 Then
+            MessageBox.Show("ComboBox is empty.")
+        Else
+            MessageBox.Show("You are already in this destination", "Attention!", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        End If
+
         If ComboBox1.SelectedIndex > ComboBox2.SelectedIndex Then
             Dim sum As Integer = ComboBox1.SelectedIndex - ComboBox2.SelectedIndex
             sum = sum * 20
@@ -97,7 +110,7 @@ Public Class Form1
 
             End Select
         ElseIf ComboBox1.SelectedIndex = ComboBox2.SelectedIndex Then
-            MessageBox.Show("You are already in this destination", "Attention!", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+
 
         End If
 

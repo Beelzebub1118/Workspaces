@@ -28,8 +28,7 @@ Public Class Form1
             MessageBox.Show("ComboBox is empty.")
         ElseIf ComboBox3.SelectedIndex = -1 Then
             MessageBox.Show("ComboBox is empty.")
-        Else
-            MessageBox.Show("You are already in this destination", "Attention!", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+
         End If
 
         If ComboBox1.SelectedIndex > ComboBox2.SelectedIndex Then
@@ -110,8 +109,7 @@ Public Class Form1
 
             End Select
         ElseIf ComboBox1.SelectedIndex = ComboBox2.SelectedIndex Then
-
-
+            MessageBox.Show("You are already in this destination", "Attention!", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
 
     End Sub

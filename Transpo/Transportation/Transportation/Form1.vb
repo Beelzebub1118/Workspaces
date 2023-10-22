@@ -8,8 +8,7 @@ Public Class Form1
         GrossFaretxtbox.ReadOnly = True
         Discounttxtbox.ReadOnly = True
         Netfaretxtbox.ReadOnly = True
-
-
+        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
     End Sub
 
     Private Sub Clearbtn_Click(sender As Object, e As EventArgs) Handles Clearbtn.Click
